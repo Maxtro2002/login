@@ -1,0 +1,36 @@
+:root {
+  --dark: #16191c;
+  --dark-x: #1e2126;
+  --light: #ffffff ;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 300;
+    color: white;
+}
+
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.bg-dark-x {
+    background-color: var(--dark-x) !important;
+  }
+
+  .form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+  }
+
+  .img-1{
+    background-image: url(/img/dabSkeleton.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-2{
+    background-image: url(/img/phantom.jpg);
+    background-size: cover;
+    background-position: center;
+  }
